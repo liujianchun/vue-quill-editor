@@ -1,7 +1,7 @@
 {
-  "name": "vue-quill-editor",
-  "description": "Quill editor component for Vue",
-  "version": "3.0.6",
+  "name": "vue-quill-editor-support-insert-table",
+  "description": "Quill editor component for Vue; quill use 2.0.0-dev.4 version to support insert table",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "Surmon",
   "keywords": [
@@ -10,7 +10,8 @@
     "vue text editor",
     "vue rich text editor",
     "vue web editor",
-    "vue editor"
+    "vue editor",
+    "table"
   ],
   "homepage": "https://github.surmon.me/vue-quill-editor",
   "repository": {
@@ -39,7 +40,7 @@
   },
   "dependencies": {
     "object-assign": "^4.1.1",
-    "quill": "^1.3.7"
+    "quill": "^2.0.0-dev.4"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
