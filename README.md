@@ -3,7 +3,7 @@
 - [forked from](https://github.com/surmon-china/vue-quill-editor)
 
 该VUE组件是兼容支持 使用 [quill-better-table](https://www.npmjs.com/package/quill-better-table) 组件将表格嵌入内容中。
-[组件包地址](https://www.npmjs.com/package/vue-quill-editor-support-insert-table)
+[vue-quill-editor-support-insert-table组件包地址](https://www.npmjs.com/package/vue-quill-editor-support-insert-table)
 
 由于原作者长期未更新，原 vue-quill-editor 的 quill 版本是使用的版本 1.3.7，
 但是这个版本是无法支持使用 quill-better-table 组件进行表格插入；
@@ -11,12 +11,17 @@
 
 
 使用方式：
+
 1.引入组件
+
 npm i vue-quill-editor-support-insert-table
+
 npm i quill-better-table
 
 2.使用样例：
+
 TODO（等空闲了写一个样例页面）
 
 3.效果图：
+
 ![img.png](img.png)
