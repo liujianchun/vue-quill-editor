@@ -1,5 +1,6 @@
 <template>
   <div style="margin: 50px auto;width: 1200px;">
+    <button style="margin-bottom: 15px;" @click="getContentText">获取内容</button>
     <quill-editor ref="contentEditor" :content="contentText" :options="editorOption" style="height:500px;"/>
   </div>
 </template>
@@ -95,7 +96,9 @@ export default {
   methods: {
     getContentText() {
       // 通过ref获取编辑的内容；提交保存数据时可通过此方式获取内容进行保存
-      console.log(this.$refs.contentEditor.quill.root.innerHTML)
+      const content = this.$refs.contentEditor.quill.root.innerHTML
+      console.log(content)
+      alert(content)
       // 如果需要在其他地方的页面直接可以渲染出表格内容，建议加上下面这段CSS样式；否则在使用这个内容页面上 表格可能不会显示出来
       // <style>.quill-better-table{width: 100%;border-collapse: collapse;table-layout: fixed;}.quill-better-table td{border: 1px solid #000;padding: 2px 5px;}</style>
     }
