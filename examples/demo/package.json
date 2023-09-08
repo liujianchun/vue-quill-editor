@@ -1,0 +1,41 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js"
+  },
+  "dependencies": {
+    "vue": "2.6.10",
+    "vue-navigation": "^1.1.4",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.6",
+    "vue-scroller": "^2.2.4",
+    "webpack": "^3.11.0",
+    "webpack-cli": "^3.3.2",
+    "vue-material-design-icons": "^5.1.2"
+  },
+  "devDependencies": {
+    "quill": "^2.0.0-dev.4",
+    "quill-better-table": "^1.2.10",
+    "vue-quill-editor-support-insert-table": "^2.0.4",
+    "node-notifier": "^5.1.2",
+    "node-sass": "^4.12.0",
+    "portfinder": "^1.0.13",
+    "vue-jest": "^1.0.2",
+    "vue-loader": "^13.3.0",
+    "vue-style-loader": "^3.0.1",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-dev-server": "^2.9.7",
+    "webpack-merge": "^4.1.0"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
